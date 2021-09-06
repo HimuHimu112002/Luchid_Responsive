@@ -1,0 +1,82 @@
+@media(min-width:0px) and (max-width:767px){
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0px;
+        display: inline-block;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .navbar-nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner_content{
+        text-align: center;
+    }
+    .banner_content h4 {
+        text-align: center;
+    }
+    .banner_content h1 {
+        text-align: center;
+    }
+    .banner_content p {
+        text-align: center;
+    }
+    .banner_phone{
+        display: none;
+    }
+    .phone_1{
+        text-align: center;
+    }
+    .phone_1 ul{
+        text-align: start;
+    }
+    .contact_box {
+        padding-bottom: 405px;
+    }
+    .phone_row{
+        text-align: center;
+    }
+}
+@media(min-width:359px) and (max-width:390px){
+    .banner_content{
+        margin-bottom: 15px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    .banner_content{
+        margin-bottom: 15px;
+    }
+    .card_content h1{
+        font-size: 35px;
+    }
+}
+@media(min-width:0px) and (max-width:358px){
+    .banner_content{
+        text-align: center;
+    }
+    .banner_content .btn_first{
+        margin-bottom: 8px;
+    }
+    .banner_content .btn_second{
+        margin-bottom: 10px;
+        margin-right: 14px;
+    }
+    .banner_content h1 {
+        font-size: 25px;
+    }
+    
+}
+@media(min-width:767px) and (max-width:991px){
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0px;
+
+    }
+}
+@media(min-width:320px) and (max-width:1199px){
+   .card_button .btn_first{
+       margin-bottom: 5px;
+   }
+}

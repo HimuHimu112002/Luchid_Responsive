@@ -1,0 +1,543 @@
+/* font-family: 'Source Sans Pro', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background-image: url("img/bg_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 10vh;  
+}
+.navbar-toggler span i{
+    font-size: 20px;
+    color: white;
+    border:  1px solid white;
+    padding: 5px 8px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding: 0;
+    margin-left: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -5px;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -5px;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45%;
+}
+.banner_phone{
+    width: 40%;
+    bottom: 0;
+    left: 60%;
+    position: absolute;
+}
+.banner_phone img{
+    width: 100%;
+}
+.hg{
+    min-height: 85vh;
+    position: relative;
+}
+.banner_content h4{
+    color: #008ed6;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.banner_content h1{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+   text-align: left;
+}
+.banner_content p{
+    padding-top: 10px;
+    color: #999999;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: left;
+}
+.banner_content .btn_first, .card_button .btn_first{
+    margin-top: 20px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #008ed6;
+    text-transform: uppercase;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.banner_content .btn_first:hover, .card_button .btn_first:hover{
+   background: transparent;
+   transition: .6s all ease-in-out;
+}
+.banner_content .btn_second, .card_button .btn_second{
+    margin-top: 20px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+.banner_content .btn_second:hover, .card_button .btn_second:hover{
+    background-color: #008ed6;
+    transition: .6s all ease-in-out;
+}
+.card_heading h1{
+    color: #1a1a1a;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+}
+.card_heading h4{
+    font-size: 18px;
+    color: #008ed6;
+}
+.card_heading h1::before{
+    content: '';
+    left: 40%;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -8px;
+}
+.card_heading h1::after{
+    content: '';
+    right: 40%;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -8px;
+}
+.card_heading h1:hover::before{
+    width: 9%;
+}
+.card_heading h1:hover::after{
+    width: 9%;
+}
+.card_logo{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:  1px solid #999999;   
+}
+.card_content h2{
+    padding-top: 15px;
+    font-size: 27px;
+    color: #1a1a1a;
+}
+.card_content p{
+    padding: 10px 0;
+    font-size: 17px;
+    color: #999999;
+}
+
+.phone_1 h4{
+    padding-top: 50px;
+    font-size: 16px;
+    color: #008ed6;
+}
+.phone_1 h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #1a1a1a;
+    position: relative;
+}
+.phone_1 h1::before{
+    content: '';
+    left: 15%;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -9px;
+}
+.phone_1 h1::after{
+    content: '';
+    right: 65%;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -9px;
+}
+.fetures:hover .phone_1 h1::before{
+    width: 9%;
+}
+.fetures:hover .phone_1 h1::after{
+    width: 9%;
+}
+.phone_1 p{
+    padding: 15px 0;
+    font-size: 17px;
+    color: #999999;
+}
+.phone_1 ul{
+    margin: 0;
+    padding: 0;
+}
+.phone_1 ul li{
+    list-style-type: none;
+}
+.phone_1 ul li i{
+    width: 25px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    color:#008ed6;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+.phone_2_bg{
+    background-color: #f2f2f2;
+}
+.phone_row{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.phone_2 h4{
+    font-size: 16px;
+    color: #008ed6;
+}
+.phone_2 h1{
+    font-size: 37px;
+    font-weight: 600;
+    color: #1a1a1a;
+    position: relative;
+}
+.phone_2 h1::before{
+    content: '';
+    left: 10%;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -7px;
+}
+.phone_2 h1::after{
+    content: '';
+    right: 60%;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -7px;
+}
+.phone_2_bg:hover .phone_2 h1::before{
+    width: 13%;
+}
+.phone_2_bg:hover .phone_2 h1::after{
+    width: 13%;
+}
+.phone_2 p{
+    padding: 15px 0;
+    font-size: 17px;
+    color: #999999;
+}
+.testimonial{
+    background-image: url("img/testimonial.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.testimonial_row{
+    min-height: 50vh;
+    margin-top: 150px;
+}
+.testimonial_heading h4{
+    color: #008ED6;
+}
+.testimonial_heading h1{
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+.testimonial_heading h1::before{
+    content: '';
+    left: 40%;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -9px;
+}
+.testimonial_heading h1::after{
+    content: '';
+    right: 40%;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -9px;
+}
+.testimonial:hover .testimonial_heading h1::before{
+    width: 9%;
+}
+.testimonial:hover .testimonial_heading h1::after{
+    width: 9%;
+}
+.testimonial p{
+    color: white;
+    font-size: 20px;
+}
+.testimonial_clint{
+    display: flex;
+}
+.testimonial_img{
+    margin-right: 25px;
+}
+.testimonial_content h4{
+    color: white;
+    font-size: 16px;
+}
+.testimonial_content h5{
+    color: white;
+    font-size: 16px;
+}
+.pricing_heading{
+    background-color: #15141A;
+}
+.pricing_heading h1{
+    color: white;
+    font-size: 37px;
+}
+.pricing_heading span{
+    color: #8F8F91;
+}
+.card_button{
+   padding-top: 20px;
+   margin-bottom: 15px;
+}
+.price{
+    border: 1px solid rgb(211, 203, 203);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.price_heading h4{
+    color: #008ED6;
+}
+.price_heading h1{
+    color: black;
+    font-size: 35px;
+    position: relative;
+}
+.price_heading h1::before{
+    content: '';
+    left: 40%;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -9px;
+}
+.price_heading h1::after{
+    content: '';
+    right: 40%;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    position: absolute;
+    transition: 0.3s all ease-in-out;
+    bottom: -9px;
+}
+.card_section:hover .price_heading h1::before{
+    width: 9%;
+}
+.card_section:hover .price_heading h1::after{
+    width: 9%;
+}
+.price span{
+   height: 1px;
+   width: 100%;
+   background: rgb(211, 203, 203);
+   display: block;
+}
+.price h3{
+    margin: 0;
+    padding: 17px 0;
+    font-weight: 700;
+}
+.price h1{
+    margin: 0;
+    padding-top: 15px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.price h1 sup{
+    font-size: 25px;
+}
+.price h6{
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999999;
+}
+.price p{
+    margin: 0;
+    padding: 35px 15px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.price .card_btn{
+    margin: 0;
+    padding: 0;
+    color: #008ED6;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1;
+    padding: 10px 30px;
+    border: 1px solid rgb(211, 203, 203);
+}
+.price:hover h3{
+    color: #008ED6;
+}
+.price:hover h1{
+   background-color: #008ED6;
+   color: white;
+}
+.price:hover h6{
+    background-color: #008ED6;
+    color: white;
+}
+.price:hover .card_btn{
+    background-color: #008ED6;
+    color: white;
+}
+.contact_box{
+    background-color: #ededed;
+    position: relative;
+    padding-bottom: 270px;
+}
+.contact_box h4{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.contact_box h5{
+    padding-top: 15px;
+    color: #999999;
+    font-size: 16px;
+ }
+.contact_box i{
+     color: #008ed6;
+     font-size: 25px;
+}
+form{
+    background-color: black;
+    padding: 30px;
+    width: 70%;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;   
+    transform: translateX(-50%);
+}
+form input{
+    margin-bottom: 15px;
+    background: transparent !important;
+    color: white !important;
+    padding: 12px !important;
+}
+form input::placeholder{
+    font-size: 18px;
+    color: white !important;
+}
+form textarea{
+    background: transparent !important;
+    color: white !important;
+}
+form textarea::placeholder{
+    color: white !important;
+}
+form input[type="submit"]{
+    margin: 0;
+    padding: 0 !important;
+    padding: 8px 15px !important;
+    margin-top: 15px;
+    text-transform: uppercase !important;
+    background-color: #008ed6 !important;
+    border: none;
+}
+.copy{
+   text-transform: uppercase;
+   font-size: 16px;
+   color: #4c4c4e;
+}
+footer{
+    background-color: #15141a;
+}
+.social_icon i{
+    margin: 20px 0;
+    color: #8F8F91;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.social_icon i:hover{
+  color: #008ed6;
+  cursor: pointer;
+}
