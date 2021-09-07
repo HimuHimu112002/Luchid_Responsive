@@ -341,9 +341,13 @@ header{
 .testimonial p{
     color: white;
     font-size: 20px;
+    width: 600px;
+    margin: auto;
 }
 .testimonial_clint{
+    margin-top: 20px;
     display: flex;
+    justify-content: center;
 }
 .testimonial_img{
     margin-right: 25px;
@@ -540,4 +544,33 @@ footer{
 .social_icon i:hover{
   color: #008ed6;
   cursor: pointer;
+}
+
+
+.owl-nav{
+    display: none !important;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-dots .owl-dot span{
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    display: block;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.owl-dots .active span{
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: white;
 }
