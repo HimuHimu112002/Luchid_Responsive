@@ -185,6 +185,7 @@ header{
     padding-top: 50px;
     font-size: 16px;
     color: #008ed6;
+    text-transform: uppercase;
 }
 .phone_1 h1{
     font-size: 35px;
@@ -252,6 +253,7 @@ header{
 .phone_2 h4{
     font-size: 16px;
     color: #008ed6;
+    text-transform: uppercase;
 }
 .phone_2 h1{
     font-size: 37px;
@@ -282,10 +284,10 @@ header{
     bottom: -7px;
 }
 .phone_2_bg:hover .phone_2 h1::before{
-    width: 13%;
+    width: 14%;
 }
 .phone_2_bg:hover .phone_2 h1::after{
-    width: 13%;
+    width: 14%;
 }
 .phone_2 p{
     padding: 15px 0;
@@ -341,7 +343,7 @@ header{
 .testimonial p{
     color: white;
     font-size: 20px;
-    width: 600px;
+    /* width: 600px; */
     margin: auto;
 }
 .testimonial_clint{
@@ -545,7 +547,6 @@ footer{
   color: #008ed6;
   cursor: pointer;
 }
-
 
 .owl-nav{
     display: none !important;

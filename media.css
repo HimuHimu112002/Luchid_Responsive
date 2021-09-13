@@ -98,3 +98,63 @@
         margin-bottom: 10px;
     }
 }
+
+@media(min-width:320px) and (max-width:991px){
+    .phone_2 h1{
+        font-size: 26px;
+    }
+    .phone_1 h1{
+        font-size: 26px;
+    }
+    .card_heading h1{
+            font-size: 30px;
+        
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .phone_2 h1::before{
+        content: '';
+        left: 30%;
+        bottom: 0;
+        width: 0%;
+        height: 2px;
+        background-color: #008ed6;
+        position: absolute;
+        transition: 0.3s all ease-in-out;
+        bottom: -7px;
+    }
+    .phone_2 h1::after{
+        content: '';
+        right: 40%;
+        bottom: 0;
+        width: 0%;
+        height: 2px;
+        background-color: #008ed6;
+        position: absolute;
+        transition: 0.3s all ease-in-out;
+        bottom: -7px;
+    }
+    .phone_1 h1::before{
+        content: '';
+        left: 40%;
+        bottom: 0;
+        width: 0%;
+        height: 2px;
+        background-color: #008ed6;
+        position: absolute;
+        transition: 0.3s all ease-in-out;
+        bottom: -7px;
+    }
+    .phone_1 h1::after{
+        content: '';
+        right: 40%;
+        bottom: 0;
+        width: 0%;
+        height: 2px;
+        background-color: #008ed6;
+        position: absolute;
+        transition: 0.3s all ease-in-out;
+        bottom: -7px;
+    }
+    
+}
