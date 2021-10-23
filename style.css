@@ -11,7 +11,35 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 10vh;  
+    min-height: 100vh;  
+}
+.topbtn{
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    z-index: 1;
+    padding-bottom: 25px;
+    display: none;
+}
+.topbtn i{
+    color: #fff;
+    font-size: 27px;
+    background: #919190;
+    padding: 15px;
+    border-radius: 50%;
+    transition: .25s all ease-in-out;
+}
+.topbtn i:hover{
+    background: #15141A;
+}
+.particles-js-canvas-el{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.ll, .hg{
+    z-index: 99 !important;
 }
 .navbar-toggler span i{
     font-size: 20px;
@@ -59,7 +87,7 @@ header{
 }
 .banner_phone{
     width: 40%;
-    bottom: 0;
+    bottom: -6%;
     left: 60%;
     position: absolute;
 }
@@ -81,7 +109,7 @@ header{
     font-size: 40px;
     letter-spacing: 1px;
     font-weight: 500;
-   text-align: left;
+    text-align: left;
 }
 .banner_content p{
     padding-top: 10px;
@@ -418,7 +446,7 @@ header{
 .card_section:hover .price_heading h1::after{
     width: 9%;
 }
-.price span{
+.price .price_span{
    height: 1px;
    width: 100%;
    background: rgb(211, 203, 203);
